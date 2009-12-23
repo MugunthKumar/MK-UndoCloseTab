@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css">
+	.contentDiv {width: 600px;}
+</style>
+<head>
+<script src="logic.js"/>
+<script>
+
+function loadContent()
+{
+	var content = getLastFive();	
+	contentDiv = document.getElementById("contentDiv");	
+	contentDiv.innerHTML = content;	
+}
+</script>
+
+</head>
+<body onload="loadContent()">
+<div id="contentDiv"/>
+</body>

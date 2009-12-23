@@ -1,0 +1,20 @@
+{
+  "name": "MK UndoCloseTab",
+  "version": "1.2",
+  "description": "Undo your closed tabs",
+  "default_title": "MKUndoCloseTab",
+  "background_page": "background.html",    
+  "icons": { 
+           "48": "icon.png"
+           },
+          
+  "browser_action": {
+    "default_icon": "icon.png",
+	"popup": "popup.html"
+  },
+  "permissions": [
+    "http://*/",
+    "tabs"
+  ]
+  
+}
